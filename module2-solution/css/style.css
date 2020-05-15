@@ -29,8 +29,8 @@ p.content {
 
 .box {
     background-color: darkgrey;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 5px;
+    padding-right: 5px;
     border: 1px solid black;
     float: left;
     width: 100%;
