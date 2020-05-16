@@ -1,0 +1,116 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/** HEADER **/
+
+#header-nav {
+    background-color: gainsboro;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand h1 { /* Brand name */
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: brown;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid brown;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+#our-menu {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+#tiles  section  h2 {
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #3F0C1F;
+}
+
+#chicken, #beef, #sushi {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 1px solid #3F0C1F;
+    overflow: hidden;
+    background-color: gainsboro;
+}
+
+
+  
+  /********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 10px;
+      font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+  
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.2em;
+      margin-right: 5px;
+    }
+  
+    #call-btn > a {
+      font-size: 1.5em;
+      display: block;
+      margin: 0 20px;
+      padding: 10px;
+      border: 2px solid #fff;
+      background-color: #f6b319;
+      color: #951c49;
+    }
+    
+    /* End Header */
+    .container {
+        width: 500px;
+    }
+  
+    #chicken, #beef, #sushi {
+        clear: left;
+        margin: 0 auto 15px;
+    }
+
+}
+  
